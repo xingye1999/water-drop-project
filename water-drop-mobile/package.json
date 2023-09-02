@@ -1,0 +1,45 @@
+{
+  "name": "water-drop-mobile",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "mock": "node ./mock/index.js",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.7.17",
+    "@types/lodash": "^4.14.197",
+    "antd-mobile": "^5.32.0",
+    "antd-mobile-icons": "^0.3.0",
+    "classnames": "^2.3.2",
+    "dayjs": "^1.11.9",
+    "graphql": "^16.7.1",
+    "loadsh": "^0.0.4",
+    "lodash": "^4.17.21",
+    "md5": "^2.3.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router": "^6.15.0",
+    "react-router-dom": "^6.15.0",
+    "react-svg": "^16.1.22",
+    "reset-css": "^5.0.2"
+  },
+  "devDependencies": {
+    "@apollo/server": "^4.9.0",
+    "@faker-js/faker": "^8.0.2",
+    "@graphql-tools/mock": "^9.0.0",
+    "@graphql-tools/schema": "^10.0.0",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "less": "4.1.3",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5",
+    "vite-plugin-eslint": "^1.8.1"
+  }
+}
